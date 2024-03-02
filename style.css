@@ -1,0 +1,88 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #000000;
+}
+.full_content{
+  height: 550px;
+  width: 350px;
+  
+  position: absolute;
+  border: 1px solid #FFFB00;
+  border-radius: 10px;
+  box-shadow: inset 1px 5px 10px #FCFF00;
+}
+.img_name{
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  position: absolute;
+  top: -70px;
+}
+.img{
+  height: 150px;
+  width: 120px;
+  background: pink;
+  position: absolute;
+  
+}
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  
+}
+.name{
+  height: 60px;
+  width: 120px;
+  background: #FCFF00;
+  position: absolute;
+  top: -45px;
+  }
+
+  .p{
+    width: 100%;
+    height: 40px;
+    color: #000;
+    position: absolute;
+    left: 0;
+    
+   margin-top: 90px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 7px;
+    color: #FFFFFF;
+  }
+  .stage_all{
+    width: 100%;
+    height: 400px;
+    
+    position: absolute;
+    bottom: 0;
+  }
+  .stage1{
+    width: 90%;
+    height: 60%;
+    background: #21201b;
+    margin: 0px 5%;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  .stage2 {
+    width: 90%;
+    height: 34%;
+    background: #21201b;
+    margin: 0% 5%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
